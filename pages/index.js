@@ -16,7 +16,7 @@ export default function HomePage() {
   // render data
   return (
     <ul>
-      <h1>Hello from Next.js</h1>
+      <h1>Hello from Stephan Lippert</h1>
       {data.map(({ slug, imageSource, artist }) => {
         return (
           <li key={slug}>
